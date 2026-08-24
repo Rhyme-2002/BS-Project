@@ -20,19 +20,46 @@
 BS-Project/
 │
 ├── 📁 code/
-│   └── R codes and analysis scripts
+│   ├── 01_data_cleaning.do
+│   ├── 02_univariate_analysis.do
+│   ├── 03_bivariate_analysis.do
+│   ├── 04_multilevel_logistic_regression.do
+│   └── 05_roc_curve.do
 │
 ├── 📁 data/
-│   └── Data and related files
+│   ├── 📁 raw/
+│   │   └── BDKR81FL.DTA
+│   │
+│   └── 📁 processed/
+│       └── processed.DTA
 │
 ├── 📁 figures/
-│   └── Generated figures and visualizations
+│   └── ROC.pdf
 │
 ├── 📁 report/
-│   └── Project report and related documents
+│   ├── ICASDA_poster.pdf
+│   ├── Project Defence Slide.pdf
+│   └── Project Report.pdf
 │
 ├── 📁 result/
-│   └── Analysis results, tables, and outputs
+│   │
+│   ├── 📁 01_variable_description/
+│   │   ├── table_1.pdf
+│   │   ├── table_2.pdf
+│   │   └── table_3.pdf
+│   │
+│   ├── 📁 02_univariate_analysis/
+│   │   ├── table_4.pdf
+│   │   ├── table_5.pdf
+│   │   └── table_6.pdf
+│   │
+│   ├── 📁 03_bivariate_analysis/
+│   │   ├── table_7.pdf
+│   │   ├── table_8.pdf
+│   │   └── table_9.pdf
+│   │
+│   └── 📁 04_multivariate_analysis/
+│       └── table_10.pdf
 │
 └── 📄 README.md
 ```
