@@ -1,5 +1,5 @@
 *Read the processed dataset*
-use "data/processed/dataset.DTA"
+use "data/processed/processed.dta.DTA"
 
 
 *weight set*
