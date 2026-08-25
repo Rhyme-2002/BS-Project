@@ -56,4 +56,4 @@ svyset [pweight=wt], psu (v001) strata(v023)
 keep b5 b4 birth_order m17 birth_place Birthweight v404 preceding_birth_interval v024 v025 v190 v106 v701 MAOCB ANC media_exposure  working BADD wt v001 v023
 
 *save the processed dataset*
-save "processed.dta", replace
+save "data/processed/processed.dta", replace
