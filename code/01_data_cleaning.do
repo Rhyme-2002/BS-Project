@@ -48,5 +48,12 @@ replace BADD= 1 if (m3a == 1 | m3b == 1 | m3c == 1 | m3d == 1 | m3e == 1 | m3f =
 replace BADD= 2 if (m3k == 1 | m3l == 1 | m3m == 1 | m3o == 1 | m3x == 1)
 codebook BADD
 
+*weight set*
+gen wt = v005 / 1000000
+svyset [pweight=wt], psu (v001) strata(v023)
+
+*keep only necessary variable*
+keep b5 b4 birth_order m17 birth_place Birthweight v404 preceding_birth_interval v024 v025 v190 v106 v701 MAOCB ANC media_exposure  working BADD wt v001 v023
+
 *save the processed dataset*
 save "processed.dta", replace
