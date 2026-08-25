@@ -1,5 +1,5 @@
 *Read the processed dataset*
-use "data/processed/processed.dta.DTA"
+use "data/processed/processed.dta"
 
 *univariate analysis*
 svy:tab b5, count format(%9.3f)
