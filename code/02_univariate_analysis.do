@@ -1,12 +1,6 @@
 *Read the processed dataset*
 use "data/processed/processed.dta.DTA"
 
-
-*weight set*
-gen wt = v005 / 1000000
-svyset [pweight=wt], psu (v001) strata(v023)
-
-keep b5 b4 birth_order m17 birth_place Birthweight v404 preceding_birth_interval v024 v025 v190 v106 v701 MAOCB ANC media_exposure  working BADD wt v001 v023
 *univariate analysis*
 svy:tab b5, count format(%9.3f)
 
