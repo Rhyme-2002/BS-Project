@@ -1,5 +1,5 @@
 *Read the processed dataset*
-use "data/processed/processed.dta.DTA"
+use "data/processed/processed.dta"
 
 *Bivariate*
 svy: tab b4 b5, row  count format(%9.3f)
