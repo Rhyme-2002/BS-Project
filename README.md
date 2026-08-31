@@ -129,5 +129,5 @@ BS-Project/
 <br>
 
 <p align="center">
-  <sub>© Abu Sufiun Rhyme | Institute of Statistical Research and Training, University of Dhaka</sub>
+  <sub>© Abu Sufiun Rhyme | Institute of Applied Statistics and Data Science (formarly ISRT), University of Dhaka</sub>
 </p>
